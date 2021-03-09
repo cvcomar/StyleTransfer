@@ -1,4 +1,6 @@
-# Style Transfer
+# Style Transfer \[Johnson et al.\]
+
+This is fork repository from [dxyang/StyleTransfer](https://github.com/dxyang/StyleTransfer). The original project used libraries with old version such as python2.7. So, in this fork repository, we just edit code only for using recent version of libraries. The contents below are almost same with the README at fork repository.
 
 ## Descriptions
 This project is a PyTorch implementation of [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155). This paper trains an **image transformation network** to perform style transfer as opposed to optimizing along the manifold of images as originally propsed by [Gatys et al.](https://arxiv.org/abs/1508.06576).
@@ -7,7 +9,7 @@ The image transformation network is shown below. For a given style image, the ne
 
 <img src="figure/model.png" height="300"/>
 
-## Prerequisites
+## Prerequisites \[Edit\]
 - Python 3.8.5 
 - pytorch 1.7.1 , py3.8_cuda11.0.221_cudnn8.0.5_0
 - torchvision 0.8.2 , py38_cu110    
